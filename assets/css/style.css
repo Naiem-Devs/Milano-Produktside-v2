@@ -410,6 +410,7 @@ li {
 .product-area {
     position: relative;
     overflow: hidden;
+    padding-top: 20px;
 }
 
 .product__content {
@@ -853,7 +854,7 @@ i.textureBtn > img {
   width: 130px;
   margin-top: -2px;
   flex-shrink: 0;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 112px);
 }
 .rtl-slider-flex .rtl-slider-nav .rtl-slider-slide {
   padding-top: 90%;
@@ -876,7 +877,7 @@ i.textureBtn > img {
 }
 
 .rtl-slider .rtl-slider-slide {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 119px);
 }
 
 .rtl-slider-flex .rtl-slider-slide img {
