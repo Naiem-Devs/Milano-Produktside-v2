@@ -834,7 +834,7 @@ $(document).ready(function(){
 
 $('.product-slider').slick({
   infinite: true,
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 1,
 
   prevArrow: ".arrow-prev",
@@ -843,13 +843,25 @@ $('.product-slider').slick({
   responsive: [
             
             {
-            breakpoint: 1200,
+            breakpoint: 1400,
             settings: {
                 slidesToShow: 3,
             }
           },
             {
-            breakpoint: 570,
+            breakpoint: 1200,
+            settings: {
+                slidesToShow:4,
+            }
+          },
+            {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 3,
+            }
+          },
+            {
+            breakpoint: 550,
             settings: {
                 slidesToShow: 2,
             }
