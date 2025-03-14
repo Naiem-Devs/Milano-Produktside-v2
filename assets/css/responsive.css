@@ -7,6 +7,10 @@
     .rtl-slider-flex .rtl-slider-nav .slick-list.draggable {
         max-height: 530px;
     }
+
+.product__Modal .rtl-slider-flex .rtl-slider-nav .slick-list.draggable {
+    max-height: 572px;
+}
     .rtl-slider-flex .rtl-slider-nav{
         max-height: 530px;
     }
@@ -53,6 +57,10 @@
     .rtl-slider-flex .rtl-slider-nav .slick-list.draggable {
         max-height: 530px;
     }
+
+.product__Modal .rtl-slider-flex .rtl-slider-nav .slick-list.draggable {
+    max-height: 560px;
+}
     .rtl-slider-flex .rtl-slider-nav{
         max-height: 530px;
     }
@@ -63,6 +71,9 @@
     .vaelg__btn a {
         height: 100px;
     }
+    .product__Modal .rtl-slider-flex .rtl-slider-nav .rtl-slider-slide{
+    height: 108px;
+}
 }
 
  
@@ -93,6 +104,10 @@
 
 .rtl-slider-flex .rtl-slider-nav .slick-list.draggable {
     max-height: 530px;
+}
+
+.product__Modal .rtl-slider-flex .rtl-slider-nav .slick-list.draggable {
+    max-height: 560px;
 }
 .rtl-slider-flex .rtl-slider-nav{
     max-height: 530px;
@@ -257,13 +272,10 @@
     left: auto !important;
     width: 75px !important;
 }
+.product__Modal__content{
+    max-height: max-content;
+}
 
- .rtl-slider-nav .slick-list{
-    margin: 0 14px;
-  }
- .rtl-slider-nav  .slick-list .slider{
-    margin: 0 -20px;
-  }
 
 }
  
@@ -272,4 +284,3 @@
 .container {width:450px}
  
 }
-.rtl-slider-nav
