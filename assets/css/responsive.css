@@ -64,6 +64,10 @@
         margin-bottom: 50px;
         padding: 0 20px;
     }
+
+.product__content.p__one.show {
+    height: auto;
+}
     .rtl-slider-flex .rtl-slider-nav {
         overflow: hidden;
         height: 120px;
@@ -76,6 +80,7 @@
         flex-direction: column;
         gap: 30px;
         margin-bottom: 30px;
+        position: relative;
     }
     
     .product__title h2 {
