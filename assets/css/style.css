@@ -462,6 +462,7 @@ li {
   padding-top: 30px;
   padding-bottom: 50px;
   box-shadow: 0 0 10px #0002;
+  z-index: 9;
 }
 
 .tilbage__link {
@@ -526,10 +527,11 @@ li {
   align-items: center;
   gap: 20px;
   margin-top: 30px;
+  flex-wrap: wrap;
 }
 
 .vaelg__btn a {
-  width: 50%;
+  width: calc(50% - 10px);
   text-align: center;
   background: #F3F3F3;
   display: flex;
@@ -1197,15 +1199,24 @@ i.textureBtn>img {
   margin-top: -2px;
   flex-shrink: 0;
   height: calc(100vh - 120px);
+  max-height: 800px;
+}
+
+.rtl-slider-flex .rtl-slider-nav .slick-list.draggable {
+    !i;!;
+    max-height: 800px;
+    height: calc(100vh - 120px) !important;!i;!;
 }
 
 .rtl-slider-flex .rtl-slider-nav .rtl-slider-slide {
   padding-top: 90%;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   transition: all 0.3s ease;
   cursor: pointer;
   padding: 0;
-  height: 12.4vh;
+  /* height: 13.7vh; */
+  min-width: 128px;
+  height: 125px;
 }
 
 .rtl-slider-flex .rtl-slider-nav .rtl-slider-slide img {}
@@ -1223,6 +1234,7 @@ i.textureBtn>img {
 
 .rtl-slider .rtl-slider-slide {
   height: calc(100vh - 120px);
+  max-height: 800px;
 }
 
 .rtl-slider-flex .rtl-slider-slide img {
@@ -1236,7 +1248,7 @@ i.textureBtn>img {
 .rtl-slider-flex .thumb-next {
   position: absolute;
   bottom: 10px;
-  width: 10%;
+  width: 100px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -1269,3 +1281,4 @@ i.textureBtn>img {
 .product-slider .slick-slide {
   margin: 0 14px;
 }
+
