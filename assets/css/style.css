@@ -1006,7 +1006,7 @@ div#exampleModal {
 .product__slider__top .arrow-wrp div {
   width: 32px;
   height: 30px;
-  border: 1px solid #0000000f;
+  border: 1px solid #0000003b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1036,15 +1036,14 @@ div#exampleModal {
 .arrow-next,
 .arrrow-next,
 .arroow-next {
-  background: #000;
-  opacity: 1 !important;
-  border: none !important
+  /* background: #000; */
+  /* opacity: 1 !important; */
 }
 
 .arrow-next img,
 .arrrow-next img,
 .arroow-next img {
-  filter: brightness(7.5) invert(1);
+  /* filter: brightness(7.5) invert(1); */
 }
 
 .product-slider .slick-list.draggable,
@@ -1056,10 +1055,9 @@ div#exampleModal {
 }
 
 .product__item b {
-  font-weight: 500;
+  font-weight: 400;
   display: block;
   opacity: .8;
-  font-size: 15px;
 }
 
 .product__item b span {
@@ -1092,7 +1090,7 @@ div#exampleModal {
 
 .product__item span {
   display: block;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .product__item .flex {
@@ -1166,6 +1164,26 @@ div#exampleModal {
     max-height: 560px;
 }
 
+.product__Modal__content .accordion-flush button {
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+.product__Modal__content .details__content p,.product__Modal__content .details__content li {
+    font-size: 14px;
+}
+
+.product__Modal__content .product__title .flex span {
+    font-size: 12px;
+    position: relative;
+    left: -8px;
+    top: 3px;
+}
+
+.product__Modal__content .product__title .flex ul img {
+    max-width: 16px;
+}
+
 .product__Modal__content .buy__btn ,
 .product__Modal__content .heart__btn
 {
@@ -1177,6 +1195,7 @@ div#exampleModal {
 
 .product__Modal__content .product__price h1 {
     font-size: 24px;
+    font-weight: 700;
 }
 
 .product__Modal__content .product__title h2 {
