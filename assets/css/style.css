@@ -871,6 +871,10 @@ i.textureBtn>img {
   padding: 20px 0;
 }
 
+div#exampleModal {
+    z-index: 99999;
+}
+
 .reviwe__wrp .btn-close {
   position: absolute;
   right: 10px;
