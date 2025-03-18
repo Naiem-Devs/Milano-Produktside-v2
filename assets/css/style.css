@@ -432,6 +432,10 @@ li {
   padding-top: 20px;
 }
 
+.side-space {
+    padding: 0 40px;
+}
+
 .container.lg {
   max-width: 1700px;
 }
@@ -697,6 +701,7 @@ i.textureBtn>img {
   color: #ffff;
   border-radius: 50%;
   height: 30px;
+  padding-bottom: 2px;
 }
 
 .buy__btn__wrp {
@@ -1074,7 +1079,7 @@ div#exampleModal {
 .product__item i {
   aspect-ratio: 1 / 1;
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 16px;
   overflow: hidden;
   cursor: pointer;
   position: relative;
@@ -1153,6 +1158,19 @@ div#exampleModal {
     position: relative;
 }
 
+.product__Modal .sofasat__title span {
+    font-size: 13px;
+}
+
+.product__Modal .sofasat__title h3 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.product__Modal .feedback__content a {
+    font-size: 16px;
+}
+
 .product__Modal .btn-close {
     position: absolute;
     top: 0;
@@ -1162,6 +1180,29 @@ div#exampleModal {
 .product__Modal__content{
     overflow: scroll;
     max-height: 560px;
+}
+
+.product__Modal__content .sofasat__item p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.product__Modal__content .product__title a {
+    font-size: 13px;
+    display: inline-block;
+}
+
+.product__Modal__content .edit__link {
+    width: 36px;
+    height: 36px;
+}
+
+.product__Modal__content .edit__link img {
+    max-width: 18px;
+}
+
+.product__Modal__content .sofasat__item>i {
+    height: 120px;
 }
 
 .product__Modal__content .accordion-flush button {
@@ -1181,7 +1222,7 @@ div#exampleModal {
 }
 
 .product__Modal__content .product__title .flex ul img {
-    max-width: 16px;
+    max-width: 14px;
 }
 
 .product__Modal__content .buy__btn ,
@@ -1194,12 +1235,13 @@ div#exampleModal {
 }
 
 .product__Modal__content .product__price h1 {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .product__Modal__content .product__title h2 {
-    font-size: 24px;
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .modal-xl .modal-content{
@@ -1220,6 +1262,214 @@ div#exampleModal {
     left: 14px;
 }
 /*============ Area End =============*/
+
+/*============ Area Start =============*/
+.alle-sofa {padding-bottom: 50px;}
+
+.chat-btn {
+    width: 80px;
+    height: 80px;
+    background: #fff9;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    border: 2px solid #0001;
+    transition: all .3s;
+}
+
+.chat-btn:hover {border: 2px solid #000000;background: #000;}
+
+.chat-btn img {
+}
+
+.chat-btn img {
+    opacity: .2;
+    transition: all .3s;
+}
+
+.chat-btn:hover img {
+    opacity: 1;
+    filter: brightness(11.5) invert(1);
+}
+
+.alle-sofa hr {
+    opacity: 1;
+}
+
+.alle-sofa .container-fluid {
+    padding: 0 30px;
+}
+.alle-sofa-title {text-align: center;padding: 50px 0;}
+
+.alle-sofa-title h1 {
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 12px;
+}
+.alle-sofa-text {padding-top: 50px;margin-bottom: 30px;}
+
+.alle-sofa-text p {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.alle-sofa-text h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+}
+
+.alle-sofa-img {height: 700px;overflow: hidden;margin-bottom: 100px;position: relative;}
+
+.alle-sofa-img button {
+    position: absolute;
+    left: 50%;
+    bottom: 90px;
+    border: 4px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    max-width: 300px;
+    width: 100%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 0;
+    transition: all .3s ease-in-out;
+}
+
+.alle-sofa-img button:hover {
+    background: #fff;
+    color: #A4452A;
+}
+
+.alle-sofa-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all .3s;
+}
+
+.alle-sofa-img:hover img {
+    scale: 1.1;
+}
+
+
+.alle-sofa__blk h2 {
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+
+.alle-sofa__blk p {
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.alle-sofa__blk span {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #A4452A;
+    margin-bottom: 16px;
+    display: block;
+    letter-spacing: 4px;
+}
+
+.alle-sofa__blk i {
+    display: block;
+    height: 350px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.alle-sofa__blk i img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    transition: all .3s;
+}
+
+.alle-sofa__blk:hover i img {
+    scale: 1.1;
+}
+
+.col-lg-12 {
+}
+.sofa__btn {display: flex;align-items: center;justify-content: space-between;align-items: normal;padding: 40px 0 80px;border-bottom: 2px solid #000;}
+
+.sofa__btn button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sofa__btn button.mixitup-control-active span {
+    border-color: #000;
+}
+
+.sofa__btn button span {
+    display: block;
+    font-weight: 600;
+    letter-spacing: 4px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+}
+
+.sofa__btn button i {
+    height: 70px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.sofa__btn button i img {
+    height: 100%;
+    display: block;
+    object-fit: scale-down;
+}
+.btn-primary {
+}
+.m-0 {
+}
+.row {
+}
+.mix_gellary .alle-sofa__blk {
+    margin-top: 100px;
+}
+.col-lg-4 {
+}
+.col-md-6 {
+}
+.mix {
+}
+.aa {
+}
+.ee {
+}
+.alle-sofa__blk {
+}
+.bb {
+}
+.gg {
+}
+.hh {
+}
+.dd {
+}
+.ff {
+}
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+/*============ Area End =============*/
+
+
 
 .p__one.show,
 .p__two.show,
@@ -1354,3 +1604,65 @@ div#exampleModal {
 }
 
 
+.wrapper .slick-dots li button:before {
+  font-size:20px;
+  color:white;
+}
+.modalcarousel .slick-slide{
+  margin: 10px;
+  height: 100%;
+}
+
+.modalcarousel .slick-slide > div {
+    height: 100%;
+}
+.modalcarousel{
+  margin:0px auto;
+  height: 100%;
+}
+
+.modalcarousel .slick-track {
+    height: 100%;
+}
+
+.modalcarousel .modal_img {
+    height: 100%;
+    background: #F6F6F3;
+}
+
+.modalcarousel .modal_img img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.modalcarousel .modal_img {}
+
+.modalcarousel .slick-list.draggable{
+  padding: 0 !important;
+  height: 100% !important;!i;!;
+}
+
+.modalcarousel ul.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ul.slick-dots li{
+    width: 10px;
+    height: 10px;
+    background: #7f7f7f;
+    border-radius: 50%;
+}
+
+ul.slick-dots li button {
+    opacity: 0;
+}
+ul.slick-dots li.slick-active{
+    background: #000;
+}

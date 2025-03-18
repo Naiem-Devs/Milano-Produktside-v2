@@ -275,7 +275,14 @@
 .product__Modal__content{
     max-height: max-content;
 }
+.product__slider__top h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
 
+.side-space {
+    padding: 0 20px;
+}
 
 }
  
