@@ -325,6 +325,18 @@ a.shoppingbtn {
 .sofModal-item > i{
     height: 120px !important;
 }
+.sofModal-item .sofasat__info{
+    min-width: 232px;
+    margin-left: 6px;
+}
+
+.sofModal-item .sofasat__info i {
+    height: 120px;
+}
+
+.sofModal-item .sofasat__info .sofasat__info__content {
+    padding: 10px;
+}
 }
 
  

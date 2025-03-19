@@ -579,17 +579,33 @@ li {
   z-index: 1;
 }
 
+a.sofModal-item.mt-3 {}
+
+.sofModal-item:hover {
+    z-index: 9;
+}
+
+.sofasat__item:hover {
+    z-index: 9;
+}
+
 .sofModal-item > i {
 
     height: 120px !important;
 }
 
 span.info-link {
-  position: absolute;
   top: 14px;
   right: 14px;
   filter: brightness(16.5) invert(1);
   cursor: pointer;
+  position: absolute;
+}
+
+.sofModal-item span.info-link {
+    top: 7px;
+    right: 10px;
+    max-width: 20px;
 }
 
 span.info-link:hover+.sofasat__info {
@@ -849,10 +865,20 @@ i.textureBtn>img,.sofModal-item > i > img {
   opacity: 0;
   pointer-events: none;
   transition: all .3s;
-  /* position: absolute; */
   width: 100%;
-  /* bottom: 0; */
   border-radius: 5px;
+}
+
+.sofModal-item .sofasat__info {
+    width: 100%;
+    min-width: 275px;
+    margin-left: 13px;
+    top: 36%;
+}
+
+.active .sofasat__info {
+    opacity: 1;
+    z-index: 99;
 }
 
 .sofasat__info>i {
