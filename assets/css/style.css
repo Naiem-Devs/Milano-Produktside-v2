@@ -842,7 +842,7 @@ i.textureBtn>img,.sofModal-item > i > img {
   left: 50%;
   top: 50%;
   max-width: 320px;
-  z-index: 999999999;
+  z-index: 2;
   background: #fff;
   box-shadow: 0 0 10px #0009;
   transform: translate(-50%, -50%);
@@ -852,6 +852,7 @@ i.textureBtn>img,.sofModal-item > i > img {
   /* position: absolute; */
   width: 100%;
   /* bottom: 0; */
+  border-radius: 5px;
 }
 
 .sofasat__info>i {
