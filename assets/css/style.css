@@ -557,6 +557,7 @@ li {
 .sofasat__title h3 {
   font-size: var(--f24);
   text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .sofasat__title h3 span {
@@ -645,6 +646,26 @@ span.info-link:hover+.sofasat__info {
   overflow: hidden;
   cursor: pointer;
   transition: all .3s;
+}
+
+.sofasat__item.active>i {
+    border-color: #000;
+}
+
+.sofasat__item>i span {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.sofasat__item>i span img {
+}
+
+i.sofaBtn.plus-icon {
 }
 
 .sofasat__item>a:hover {
@@ -1063,6 +1084,7 @@ div#exampleModal {
   font-weight: 400;
   display: block;
   opacity: .8;
+  text-transform: capitalize;
 }
 
 .product__item b span {
@@ -1407,6 +1429,7 @@ div#exampleModal {
 
 .sofa__btn button.mixitup-control-active span {
     border-color: #000;
+    border-width: 1px;
 }
 
 .sofa__btn button span {
@@ -1428,41 +1451,105 @@ div#exampleModal {
     display: block;
     object-fit: scale-down;
 }
-.btn-primary {
-}
-.m-0 {
-}
-.row {
-}
+
 .mix_gellary .alle-sofa__blk {
     margin-top: 100px;
 }
-.col-lg-4 {
-}
-.col-md-6 {
-}
-.mix {
-}
-.aa {
-}
-.ee {
-}
-.alle-sofa__blk {
-}
-.bb {
-}
-.gg {
-}
-.hh {
-}
-.dd {
-}
-.ff {
-}
+
 /*============ Area End =============*/
 
 
 /*============ Area Start =============*/
+
+.shop-rugs {overflow: hidden;}
+.shop-rugs__blk {position: relative;}
+
+.left-space {
+    margin-left: 50px;
+}
+
+.shop-rugs__blk h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    width: max-content;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.shop-rugs__blk a {
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 40px;
+    background: #000;
+    transition: all .3s;
+}
+
+.shop-rugs__blk a i {
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 12px;
+}
+
+.shop-rugs__blk a:hover span {position: relative;opacity: 1;display: flex;align-items: center;margin: 0 10px;padding-right: 10px;width: auto;height: auto;}
+
+.shop-rugs__blk a:hover {
+    width: auto;
+    border-radius: 30px;
+    justify-content: start;
+}
+
+.shop-rugs__blk a img {
+    filter: brightness(61.5) invert(1);
+}
+
+.shop-rugs__blk a span {
+    position: absolute;
+    opacity: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all .3s;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.shop-rugs-side {position: fixed;top: 0;right: -1000px;max-width: 810px;background: #fff;padding: 0 50px;box-shadow: 0 0 10px #0004;height: 100vh;transition: all .3s ease;}
+
+.shop-rugs-side.show {
+    right: 0;
+}
+.shop-rugs-top {display: flex;align-items: center;justify-content: center;position: relative;padding: 25px 0 30px;}
+
+.shop-rugs-top a {
+    position: absolute;
+    right: 0;
+}
+
+.shop-rugs-top h3 {
+    margin: 0;
+    text-transform: uppercase;
+}
+.closeBtn {
+}
+.shop-rugs__wrp {height: 90vh;overflow: auto;}
+
+.shop-rugs__wrp .product__item b {
+    opacity: 1;
+    margin-bottom: 10px;
+}
+.shop-rugs__wrp::-webkit-scrollbar{display: none;}
+.col-lg-6 {
+}
+.col-md-6 {
+}
+.product__item {
+}
 /*============ Area End =============*/
 
 
@@ -1540,7 +1627,6 @@ div#exampleModal {
   height: 125px;
 }
 
-.rtl-slider-flex .rtl-slider-nav .rtl-slider-slide {}
 
 .rtl-slider-flex .rtl-slider-nav .slick-slide.slick-current.slick-active .rtl-slider-slide {
   opacity: 1;
@@ -1636,11 +1722,10 @@ div#exampleModal {
     object-position: center;
 }
 
-.modalcarousel .modal_img {}
 
 .modalcarousel .slick-list.draggable{
   padding: 0 !important;
-  height: 100% !important;!i;!;
+  height: 100% !important;
 }
 
 .modalcarousel ul.slick-dots {

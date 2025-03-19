@@ -21,6 +21,42 @@
     .vaelg__btn a {
         height: 100px;
     }
+    .alle-sofa-title {
+        padding: 40px 0;
+    }
+    
+    .alle-sofa-title h1 {
+        font-size: 30px;
+    }
+    
+    .alle-sofa-text h2 {
+        font-size: 24px;
+    }
+    
+    .alle-sofa-text p {
+        font-size: 16px;
+    }
+    
+    .alle-sofa-img {
+        height: 500px;
+    }
+    
+    .alle-sofa-img button {
+        bottom: 50px;
+        font-size: 24px;
+    }
+    
+    .alle-sofa__blk h2 {
+        font-size: 30px;
+    }
+
+    .sofa__btn {
+        gap: 40px;
+    }
+    
+    .sofa__btn button span {
+        font-size: 12px;
+    }
 }
 
 
@@ -74,6 +110,60 @@
     .product__Modal .rtl-slider-flex .rtl-slider-nav .rtl-slider-slide{
     height: 108px;
 }
+.left-space{
+    margin-left: 30px;
+}
+.alle-sofa-title {
+    padding: 40px 0;
+}
+
+.alle-sofa-title h1 {
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+.alle-sofa-text h2 {
+    font-size: 24px;
+}
+
+.alle-sofa-text p {
+    font-size: 16px;
+}
+
+.alle-sofa-img {
+    height: 400px;
+}
+
+.alle-sofa-img button {
+    bottom: 30px;
+    font-size: 24px;
+    width: 80%;
+    font-size: 20px;
+    border-width: 2px;
+}
+
+.alle-sofa__blk h2 {
+    font-size: 26px;
+}
+.alle-sofa__blk p{
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.sofa__btn {
+    gap: 28px;
+    min-width: 1020px;
+}
+
+.sofa__btn button {
+    font-size: 12px;
+}
+
+.sofa__btn__wrp {
+    overflow: auto;
+}
+.mix_gellary .alle-sofa__blk {
+    margin-top: 50px;
+}
 }
 
  
@@ -116,6 +206,75 @@
 
 .vaelg__btn a {
     height: 100px;
+}
+.left-space{
+    margin-left: 0px;
+}
+.shop-rugs__blk h2 {
+    font-size: 20px;
+}
+
+a.shoppingbtn {
+    left: 20px;
+    bottom: 20px;
+}
+
+
+.alle-sofa-title {
+    padding: 40px 0;
+}
+
+.alle-sofa-title h1 {
+    font-size: 26px;
+    letter-spacing: 7px;
+}
+
+.alle-sofa-text h2 {
+    font-size: 24px;
+}
+
+.alle-sofa-text p {
+    font-size: 16px;
+}
+
+.alle-sofa-img {
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.alle-sofa-img button {
+    bottom: 30px;
+    font-size: 24px;
+    width: 80%;
+    font-size: 20px;
+    border-width: 2px;
+}
+
+.alle-sofa__blk h2 {
+    font-size: 26px;
+}
+.alle-sofa__blk p{
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.alle-sofa__blk {margin-bottom: 50px;}
+
+.sofa__btn {
+    gap: 28px;
+    min-width: 1020px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
+
+.sofa__btn button {
+    font-size: 12px;
+}
+
+.sofa__btn__wrp {
+    overflow: auto;
+}
+.mix_gellary .alle-sofa__blk {
+    margin-top: 0;
 }
 }
 
@@ -283,11 +442,116 @@
 .side-space {
     padding: 0 20px;
 }
+.left-space{
+    margin-left: 0px;
+}
+.shop-rugs__blk h2 {
+    font-size: 20px;
+}
 
+a.shoppingbtn {
+    left: 20px;
+    bottom: 20px;
+}
+.shop-rugs__blk {
+    max-width: 400px;
+    margin-inline: auto;
+    margin-bottom: 30px;
+}
+.shop-rugs-side{
+    padding: 0 20px;
+}
+
+
+
+
+.alle-sofa-title {
+    padding: 28px 0;
+}
+
+.alle-sofa-title h1 {
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.alle-sofa-text h2 {
+    font-size: 20px;
+}
+
+.alle-sofa-text p {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.alle-sofa-img {
+    height: 340px;
+    margin-bottom: 50px;
+}
+
+.alle-sofa-img button {
+    bottom: 24px;
+    font-size: 24px;
+    width: 80%;
+    font-size: 16px;
+    border-width: 2px;
+}
+
+.alle-sofa__blk h2 {
+    font-size: 22px;
+}
+.alle-sofa__blk p{
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.alle-sofa__blk {margin-bottom: 50px;}
+.alle-sofa__blk span {
+    margin-bottom: 7px;
+    font-size: 16px;
+}
+
+.alle-sofa__blk i {
+    height: 300px;
+}
+.sofa__btn {
+    gap: 28px;
+    min-width: 1020px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.sofa__btn button {
+    font-size: 12px;
+}
+
+.sofa__btn__wrp {
+    overflow: auto;
+}
+.mix_gellary .alle-sofa__blk {
+    margin-top: 0;
+}
+.sofa__btn button i {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.mix_gellary {
+    padding-top: 30px;
+}
+button.chat-btn {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    bottom: 30px;
+    right: 30px;
+}
 }
  
 /* Large Mobile screen :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
- 
+.shop-rugs-side{
+    padding: 0 70px;
+
+}
 }
