@@ -964,7 +964,84 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="product__Modal">
+                        
+                        <div class="product__Modal__btn">
+                            <a href="">
+                                <span>ga til produktside</span>
+                                <i><img src="assets/img/arrow-right.svg" alt=""></i>
+                            </a>
+                        </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                        <div class="product__Modal__side ">
+                            <div class="product__content ">
+                                <div class="tilbage__link ">
+                                    <a href=""><img src="assets/img/left-chevron.png" alt=""> Tilbage</a>
+                                </div>
+                                <div class="sofasat__title mb-3">
+                                    <h3>cambie boucle</h3>
+                                    <span>4 options</span>
+                                </div>
+                                <div class="">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6 mb-4">
+                                            <a href="" class=" sofModal-item mt-3">
+                                                <i class=" border-0">
+                                                    <button class="edit__link"><img src="assets/img/editing.png" alt=""></button>
+                                                    <img src="assets/img/texture-1.jpg" alt="">
+                                                </i>
+                                                <p>color pers. sofa</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mb-4">
+                                            <a href="" class=" sofModal-item mt-3">
+                                                <i class=" border-0">
+                                                    <button class="edit__link"><img src="assets/img/editing.png" alt=""></button>
+                                                    <img src="assets/img/texture-1.jpg" alt="">
+                                                </i>
+                                                <p>color pers. sofa</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mb-4">
+                                            <a href="" class=" sofModal-item mt-3">
+                                                <i class=" border-0">
+                                                    <button class="edit__link"><img src="assets/img/editing.png" alt=""></button>
+                                                    <img src="assets/img/texture-1.jpg" alt="">
+                                                </i>
+                                                <p>color pers. sofa</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mb-4">
+                                            <a href="" class=" sofModal-item mt-3">
+                                                <i class=" border-0">
+                                                    <button class="edit__link"><img src="assets/img/editing.png" alt=""></button>
+                                                    <img src="assets/img/texture-1.jpg" alt="">
+                                                </i>
+                                                <p>color pers. sofa</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mb-4">
+                                            <a href="" class=" sofModal-item mt-3">
+                                                <i class=" border-0">
+                                                    <button class="edit__link"><img src="assets/img/editing.png" alt=""></button>
+                                                    <img src="assets/img/texture-1.jpg" alt="">
+                                                </i>
+                                                <p>color pers. sofa</p>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6 mb-4">
+                                            <a href="" class=" sofModal-item mt-3">
+                                                <i class=" border-0">
+                                                    <button class="edit__link"><img src="assets/img/editing.png" alt=""></button>
+                                                    <img src="assets/img/texture-1.jpg" alt="">
+                                                </i>
+                                                <p>color pers. sofa</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class=" col-xl-7">
                                 <div class="modalcarousel">
@@ -1008,16 +1085,16 @@
                                         <h3>VÆLG tekstil</h3>
                                         <span>4 options</span>
                                     </div>
-                                    <div class="sofasat__items">
+                                    <div class="">
                                         <div class="row">
                                             <div class="col-md-6 col-sm-6">
-                                                <div class="sofasat__item mt-3">
-                                                    <i class="textureBtn">
-                                                        <a href="" class="edit__link"><img src="assets/img/editing.png" alt=""></a>
+                                                <a href="" class=" sofModal-item mt-3">
+                                                    <i class=" border-0">
+                                                        <button class="edit__link"><img src="assets/img/editing.png" alt=""></button>
                                                         <img src="assets/img/texture-1.jpg" alt="">
                                                     </i>
                                                     <p>color pers. sofa</p>
-                                                </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -1090,7 +1167,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="feedback__content">
+                                    <div class="feedback__content d-none">
                                         <h4>Find everything you need to know? <a href="">GIVE US FEEDBACK</a></h4>
                                     </div>
                                 </div>
@@ -1186,6 +1263,12 @@ $('.product-slider').slick({
             breakpoint: 1200,
             settings: {
                 slidesToShow:4,
+            }
+          },
+            {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3,
             }
           },
             {

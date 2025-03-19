@@ -42,6 +42,17 @@
   }); 
 
 
+ $('.sofModal-item ').click( function (event){ 
+    event.preventDefault() 
+	  $(".product__Modal__side").toggleClass('show');       
+  }); 
+
+ $('.tilbage__link a').click( function (event){ 
+    event.preventDefault() 
+	  $(".product__Modal__side").removeClass('show');       
+  }); 
+
+
 
 		// ------------ Counter BEGIN ------------ 
 		$(".counter__increment, .counter__decrement").click(function(e)

@@ -571,9 +571,17 @@ li {
   opacity: .7;
 }
 
-.sofasat__item {
+.sofasat__item,.sofModal-item {
   margin-top: 40px;
   position: relative;
+  display: inline-block;
+  width: 100%;
+  z-index: 1;
+}
+
+.sofModal-item > i {
+
+    height: 120px !important;
 }
 
 span.info-link {
@@ -611,7 +619,7 @@ span.info-link:hover+.sofasat__info {
   color: #0009;
 }
 
-.sofasat__item p {
+.sofasat__item p,.sofModal-item p {
   margin-top: 10px;
   opacity: .7;
   text-transform: uppercase;
@@ -634,8 +642,7 @@ span.info-link:hover+.sofasat__info {
 }
 
 
-.sofasat__item>i,
-.sofasat__item>a {
+.sofasat__item>i, .sofasat__item>a,.sofModal-item > i {
   border: 2px solid #00000038;
   display: flex;
   align-items: center;
@@ -672,7 +679,7 @@ i.sofaBtn.plus-icon {
   border: 2px solid #000000;
 }
 
-i.textureBtn>img {
+i.textureBtn>img,.sofModal-item > i > img {
   height: 100%;
   object-fit: cover;
   width: 100%;
@@ -1180,6 +1187,64 @@ div#exampleModal {
     position: relative;
 }
 
+.product__Modal__side {
+    height: 597px;
+    max-width: 500px;
+    background: #fff;
+    position: absolute;
+    right: -16px;
+    top: -16px;
+    padding-top: 30px;
+    overflow: auto;
+    padding-bottom: 10px;
+    width: 100%;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    z-index: -1;
+}
+
+.product__Modal__side.show {
+    z-index: 999;
+    visibility: visible;
+    opacity: 1;
+}
+
+.product__Modal__side .product__content {
+    opacity: 1;
+    height: auto;
+    pointer-events: all;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.product__Modal__btn {}
+
+.product__Modal__btn a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    box-shadow: 0 0 10px #0005;
+    position: absolute;
+    right: -16px;
+    bottom: -21px;
+    background: #fff;
+    width: 100%;
+    max-width: 495px;
+    z-index: 9;
+    padding: 13px 30px;
+}
+
+.product__Modal__btn a i {
+    display: block;
+    transition: all .3s;
+}
+
+.product__Modal__btn a:hover i {
+    transform: translateX(10px);
+}
+
 .product__Modal .sofasat__title span {
     font-size: 13px;
 }
@@ -1204,6 +1269,9 @@ div#exampleModal {
     max-height: 560px;
 }
 
+.product__Modal__content .sofasat__item {
+}
+
 .product__Modal__content .sofasat__item p {
     font-size: 12px;
     margin-top: 5px;
@@ -1214,16 +1282,16 @@ div#exampleModal {
     display: inline-block;
 }
 
-.product__Modal__content .edit__link {
+.product__Modal__content .edit__link,.sofModal-item .edit__link {
     width: 36px;
     height: 36px;
 }
 
-.product__Modal__content .edit__link img {
+.product__Modal__content .edit__link img,.sofModal-item .edit__link img {
     max-width: 18px;
 }
 
-.product__Modal__content .sofasat__item>i {
+.product__Modal__content .sofModal-item>i {
     height: 120px;
 }
 
@@ -1358,11 +1426,17 @@ div#exampleModal {
     font-weight: 600;
     padding: 10px 0;
     transition: all .3s ease-in-out;
+    opacity: 0;
+}
+
+.alle-sofa-img:hover button {
+    opacity: 1;
 }
 
 .alle-sofa-img button:hover {
     background: #fff;
     color: #A4452A;
+    opacity: 1;
 }
 
 .alle-sofa-img img {
@@ -1394,9 +1468,9 @@ div#exampleModal {
     text-transform: uppercase;
     font-size: 20px;
     color: #A4452A;
-    margin-bottom: 16px;
     display: block;
     letter-spacing: 4px;
+    margin-bottom: 8px;
 }
 
 .alle-sofa__blk i {
@@ -1454,6 +1528,8 @@ div#exampleModal {
 
 .mix_gellary .alle-sofa__blk {
     margin-top: 100px;
+    display: inline-block;
+    width: 100%;
 }
 
 /*============ Area End =============*/

@@ -69,6 +69,10 @@
         background: #fff;
     }
 
+.product__Modal__side .product__content {
+    margin-top: 0;
+}
+
 .product__content.p__three.show {}
 
 .product__content.p__two.show ,
@@ -164,6 +168,25 @@
 .mix_gellary .alle-sofa__blk {
     margin-top: 50px;
 }
+
+
+.sofModal-item > i {
+    height: 180px !important;
+}
+.product__Modal__btn a {
+    max-width: 100%;
+    left: 0;
+    box-shadow: 0px -3px 6px 0px #0001;
+}
+.product__Modal__side.show {
+    position: sticky;
+    right: 41px;
+    max-width: 100%;
+    padding-bottom: 14px;
+    margin-top: 0px;
+    height: 606px;
+}
+
 }
 
  
@@ -175,6 +198,12 @@
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
+.product__Modal__side .product__content {
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
     .rtl-slider-flex .rtl-slider-nav {
         height: calc(100vh - 91px);
         overflow: hidden;
@@ -275,6 +304,26 @@ a.shoppingbtn {
 }
 .mix_gellary .alle-sofa__blk {
     margin-top: 0;
+}
+
+.sofModal-item > i {
+    height: 180px !important;
+}
+.product__Modal__btn a {
+    max-width: 100%;
+    left: 0;
+    box-shadow: 0px -3px 6px 0px #0001;
+}
+.product__Modal__side.show {
+    position: sticky;
+    right: 41px;
+    max-width: 100%;
+    padding-bottom: 14px;
+    margin-top: 0px;
+    height: 606px;
+}
+.sofModal-item > i{
+    height: 120px !important;
 }
 }
 
@@ -545,6 +594,27 @@ button.chat-btn {
     bottom: 30px;
     right: 30px;
 }
+
+
+.sofModal-item > i {
+    height: 180px !important;
+}
+.product__Modal__btn a {
+    max-width: 100%;
+    left: 0;
+    box-shadow: 0px -3px 6px 0px #0001;
+}
+.product__Modal__side.show {
+    position: sticky;
+    right: 41px;
+    max-width: 100%;
+    padding-bottom: 14px;
+    margin-top: 0px;
+    height: 606px;
+}
+.sofModal-item > i{
+    height: 155px !important;
+}
 }
  
 /* Large Mobile screen :480px. */
@@ -553,5 +623,8 @@ button.chat-btn {
 .shop-rugs-side{
     padding: 0 70px;
 
+}
+.sofModal-item > i {
+    height: 125px !important;
 }
 }
