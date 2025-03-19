@@ -57,6 +57,16 @@
     .sofa__btn button span {
         font-size: 12px;
     }
+    .sofasat__item .sofasat__info {
+        margin-left: -28px;
+        max-width: 290px;
+    }
+    .sofasat__item>a{
+    max-height: 180px;
+}
+.product__content.p__two, .product__content.p__three{
+    width: 60%;
+}
 }
 
 
@@ -83,6 +93,7 @@
     height: 100vh;
     overflow: auto;
     padding-bottom: 40px;
+    width: 60%;
 }
     .rtl-slider-flex .rtl-slider-nav {
         height: calc(100vh - 91px);
@@ -186,6 +197,13 @@
     margin-top: 0px;
     height: 606px;
 }
+.sofasat__item .sofasat__info {
+    margin-left: -28px;
+    max-width: 290px;
+}
+.sofasat__item>a{
+max-height: 180px;
+}
 
 }
 
@@ -216,6 +234,7 @@
     height: 100vh;
     overflow: auto;
     padding-bottom: 40px;
+    width: 80%;
 }
 .rtl-slider .rtl-slider-slide {
     max-height: 530px;
@@ -336,6 +355,13 @@ a.shoppingbtn {
 
 .sofModal-item .sofasat__info .sofasat__info__content {
     padding: 10px;
+}
+.sofasat__item .sofasat__info {
+    margin-left: -21px;
+    max-width: 290px;
+}
+.sofasat__item>a{
+max-height: 180px;
 }
 }
 

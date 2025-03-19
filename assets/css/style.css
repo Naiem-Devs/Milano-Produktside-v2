@@ -490,7 +490,7 @@ li {
   position: sticky;
   top: 0;
   background: #fff;
-  z-index: 9;
+  z-index: 21;
   padding-top: 30px;
 }
 
@@ -669,6 +669,16 @@ span.info-link:hover+.sofasat__info {
   overflow: hidden;
   cursor: pointer;
   transition: all .3s;
+}
+
+.sofasat__item>a > img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.sofasat__item>a {
 }
 
 .sofasat__item.active>i {
